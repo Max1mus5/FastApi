@@ -1,0 +1,61 @@
+#SCRAPI-ER
+
+Una API sencilla que busca dentro de un sitio web la informacion pedida por el usuario
+
+## Instrucciones de Uso
+
+### 1. Crear un entorno virtual en Python
+
+Es recomendable usar un entorno virtual para mantener las dependencias del proyecto aisladas. Puedes crear uno usando `venv`:
+
+```bash
+python -m venv nombre_de_tu_entorno
+```
+
+Activa el entorno virtual:
+
+En Windows:
+
+```bash
+nombre_de_tu_entorno\Scripts\activate
+```
+En macOS y Linux:
+
+```bash
+source nombre_de_tu_entorno/bin/activate
+```
+### 2. Instalar las librerías necesarias
+Una vez dentro del entorno virtual, puedes instalar las librerías requeridas ejecutando:
+```bash
+pip install -r requirements.
+```
+###3. Ejecutar la aplicación
+Para ejecutar la aplicación, utiliza el archivo principal main.py:
+```bash
+python main.py
+```
+
+Nota
+Se han realizado pruebas utilizando Postman para verificar que el servidor se monte correctamente. Puedes emplear Postman para interactuar con el servidor si lo deseas.
+
+
+#Contribuciones
+
+¡Tu contribución es bienvenida! Puedes contribuir de las siguientes maneras:
+
+### -Abrir Issues
+Si encuentras algún error, tienes una idea para una nueva característica o simplemente quieres sugerir mejoras, puedes abrir un issue en el repositorio. Asegúrate de proporcionar detalles claros y concisos sobre el problema o la sugerencia.
+
+### -Enviar Pull Requests
+Si deseas contribuir directamente al código, puedes enviar un pull request. Antes de hacerlo, asegúrate de seguir estos pasos:
+1. Fork el repositorio y clona tu copia en local.
+2. Crea una rama (`git checkout -b nombre_de_tu_rama`) y realiza tus cambios.
+3. Asegúrate de hacer pruebas para validar tus cambios.
+4. Haz un commit de tus cambios (`git commit -am 'Descripción de tus cambios'`).
+5. Empuja tu rama a tu repositorio en GitHub (`git push origin nombre_de_tu_rama`).
+6. Envía un pull request desde tu rama a la rama principal del repositorio original.
+
+
+
+
+
